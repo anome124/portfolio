@@ -1,0 +1,159 @@
+
+.b-black {
+  background-color: rgb(21, 24, 26);
+}
+
+.b-grad {
+  background-image: linear-gradient(to bottom right, rgb(12, 27, 31) ,rgb(21, 24, 26));
+  background-color: rgb(21, 24, 26);
+}
+
+.b-white {
+  background-color: rgb(233, 233, 233);
+}
+
+.b-green {
+  background-color: rgb(89, 195, 160);
+}
+
+.b-blue2 {
+  background-color: rgb(128, 171, 226);
+}
+
+.white {
+  color:rgb(233, 233, 233);
+}
+
+.white2 {
+  color:rgb(204, 204, 204);
+}
+
+.white-black2 {
+  color:rgb(139, 139, 139);
+}
+
+.white-black {
+  color:rgb(105, 105, 105);
+}
+
+
+.black {
+  color: rgb(21, 24, 26);
+}
+
+.green {
+  color: rgb(89, 195, 160) !important;
+}
+
+/* __________TEXT__________ */
+.fs-0 {
+  font-size: 1.5em;
+}
+.fs-1 {
+  font-size: 2em;
+}
+.fs-2 {
+  font-size: 3em;
+}
+.fs-3 {
+  font-size: 4em;
+}
+.fw-1 {
+  font-weight: 300;
+}
+.fw-2 {
+  font-weight: 400;
+}
+.ls-0 {
+  letter-spacing: 2.5px;
+}
+.ls-1 {
+  letter-spacing: 5px;
+}
+.ls-2 {
+  letter-spacing: 10px;
+}
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* __________padding / margin__________ */
+.p {
+  padding:10px;
+}
+.p-2 {
+  padding:20px;
+}
+.m {
+  margin:10px;
+}
+.m-2 {
+  margin:20px;
+}
+.no-m {
+  margin:0px !important;
+}
+.no-p {
+  padding:0px !important;
+}
+.m-t {
+  margin-top:10px;
+}
+.m-t2 {
+  margin-top:2em;
+}
+.m-b {
+  margin-bottom:10px;
+}
+.m-b2 {
+  margin-bottom:2em;
+}
+
+/* __________BORDER__________ */
+.b {
+  border-width: 2px;
+  border-style: solid;
+  border-color:  rgb(37, 173, 207);
+}
+.b-white {
+  border-width: 3px;
+  border-style: solid;
+  border-color:white;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+/* __________Button__________ */
+.btn {
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px;
+  font-family: 'Work Sans', sans-serif;
+  background-color: transparent;
+  color: rgb(21, 24, 26);
+  padding:15px;
+  /* border-radius: 50px; */
+  transition: 0.3s;
+  border-color: rgb(37, 173, 207);
+}
+.btn:hover {
+  color:white;
+  background-color: rgb(37, 173, 207);
+  /* background-color: rgb(21, 24, 26); */
+}
+
+/* __________Box shadow__________ */
+.shadowed {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadowed-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.blur {
+  filter: blur(4px);
+}

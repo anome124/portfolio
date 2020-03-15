@@ -1,0 +1,61 @@
+
+#Boiko {
+  border-top:none;
+  border-left: calc(40px) solid transparent;
+  border-right: calc(40px) solid transparent;
+}
+#projects-title {
+  border-top:none;
+  border-left: calc(40px) solid transparent;
+  border-right: calc(40px) solid transparent;
+}
+#sub1-education, #sub1-music, #jober-text{
+  padding-left:50px;
+}
+
+.contact-text {
+  font-size : 13px;
+}
+#contact {
+  flex-wrap:wrap;
+  display: flex;
+  flex-direction: row;
+}
+.c-item {
+  width:200px;
+  height:auto;
+}
+#vp {
+  width:500px;
+  height:auto;
+}
+#me {
+  width:400px;
+  height:auto;
+}
+
+.team-member img {
+  width:60% !important;
+  height:60%;
+  box-shadow: 0 0 16px rgb(0, 0, 0);
+}
+.gallery  img {
+  width:80% !important;
+  height:70%;
+  box-shadow: 0 0 16px rgb(0, 0, 0);
+  transition: all 1.5s ease;
+}
+
+.gallery {
+  display:flex;
+  flex-direction: row;
+}
+.gallery .gallery-item {
+  /* transition: grid-row-start 300ms linear; */
+  /* transition: transform 300ms ease; */
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.gallery .gallery-item:hover >img{
+  transform: scale(1.025);
+}
